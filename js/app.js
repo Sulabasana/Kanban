@@ -2,7 +2,7 @@ $(document).ready(function () {
     var fields = [
              { name: "id", type: "string" },
              { name: "status", map: "state", type: "string" },
-             { name: "text", map: "label", type: "string" },
+             { name: "text", map: "actvity", type: "string" },
              { name: "tags", type: "string" },
              { name: "color", map: "hex", type: "string" },
              { name: "resourceId", type: "number" }
@@ -10,11 +10,11 @@ $(document).ready(function () {
     var source =
      {
          localData: [
-                  { id: "1", state: "new", label: "Digital Automation", tags: "automation, future", hex: "#5dc3f0", resourceId: 3 },
-                  { id: "2", state: "work", label: "Lotus Script", tags: "NewJob", hex: "#f19b60", resourceId: 1 },
-                  { id: "3", state: "new", label: "JavaScript", tags: "Language", hex: "#5dc3f0", resourceId: 3 },
-                  { id: "4", state: "done", label: "Tickety!", tags: "Stupid task", hex: "#5dc3f0", resourceId: 4 },
-                  { id: "5", state: "new", label: "Denon", tags: "Pleasure, money", hex: "#6bbd49" }
+                  { id: "1", state: "new", actvity: "Digital Automation", tags: "automation, future", hex: "#5dc3f0", resourceId: 3 },
+                  { id: "2", state: "work", actvity: "Lotus Script", tags: "NewJob", hex: "#f19b60", resourceId: 1 },
+                  { id: "3", state: "new", actvity: "JavaScript", tags: "Language", hex: "#5dc3f0", resourceId: 3 },
+                  { id: "4", state: "done", actvity: "Tickety!", tags: "Stupid task", hex: "#5dc3f0", resourceId: 4 },
+                  { id: "5", state: "new", actvity: "Denon", tags: "Pleasure, money", hex: "#6bbd49" }
          ],
          dataType: "array",
          dataFields: fields
