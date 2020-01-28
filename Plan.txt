@@ -1,0 +1,5 @@
+1. Add classes to inputs
+2. Use classes to find element using jquery
+3. Store value in json file
+4. Display data from json file on page
+https://stackoverflow.com/questions/28986244/generate-json-data-based-on-input-fields
