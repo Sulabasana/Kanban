@@ -1,5 +1,12 @@
-1. Add classes to inputs
-2. Use classes to find element using jquery
-3. Store value in json file
-4. Display data from json file on page
-https://stackoverflow.com/questions/28986244/generate-json-data-based-on-input-fields
+1. Zrobić funkcje na pobieranie danych z inputów
+2. DAne trafiają do arr
+3. Obj tworzony na podstawie arr
+Id - random
+resource Id -random
+state, activity, tags i hex na podstawie danych usera
+Jeśli któryś formularz jest pusty to button disabled
+
+potem zapisz dane pythonem do jsona
+
+
+
