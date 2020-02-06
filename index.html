@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="jqwidgets-ver9.0.0\jqwidgets\styles/jqx.base.css" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src='js/app.js'></script>
+    <!-- <script src='js/checkinput.js'></script> -->
     <!-- <script src='js/generatejson.js'></script> -->
     <script type="text/javascript" src="jqwidgets-ver9.0.0\jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="jqwidgets-ver9.0.0\jquery-validation/dist/jquery.validate.min.js"></script>
     <script type="text/javascript" src="jqwidgets-ver9.0.0\jqwidgets/jqxsortable.js"></script>
     <script type="text/javascript" src="jqwidgets-ver9.0.0\jqwidgets/jqxkanban.js"></script>
     <script type="text/javascript" src="jqwidgets-ver9.0.0\jqwidgets/jqxdata.js"></script>
@@ -18,7 +20,7 @@
 <body>
     <div id='kanban'>
     </div>
-    <form>
+    <form name="registration">
 
         <!-- <label for="id">ID</label>
         <br>
@@ -26,19 +28,19 @@
         <br> -->
         <label for="status">Status</label>
         <br>
-        <input type="text" id="status" name="status" placeholder="Select between: new, work, done" value="A" />
+        <input type="text" id="status" name="status" placeholder="Select between: new, work, done" required />
         <br>
         <label for="label">Activty name</label>
         <br>
-        <input type="text" id='activty' name="text" placeholder="What are you working on?"value="A"  />
+        <input type="text" id='activty' name="text" placeholder="What are you working on?"required  />
         <br>
         <label for="tags">Tags</label>
         <br>
-        <input type="text" id="Tags" name="tags" placeholder="Tag related to the task" value="A"  />
+        <input type="text" id="Tags" name="tags" placeholder="Tag related to the task" required  />
         <br>
         <label for="priority">Priority</label>
         <br>
-        <input type="text" id='priority' name="color" placeholder="Low, Medium, High"/>
+        <input type="text" id='priority' name="color" placeholder="Low, Medium, High" required/>
         <button class="generate" type="submit" id="generate">Generate</button>
     </form>
     <!--  For test purpose

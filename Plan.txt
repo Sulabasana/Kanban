@@ -1,12 +1,15 @@
-1. Zrobić funkcje na pobieranie danych z inputów
-2. DAne trafiają do arr
-3. Obj tworzony na podstawie arr
-Id - random
-resource Id -random
-state, activity, tags i hex na podstawie danych usera
-Jeśli któryś formularz jest pusty to button disabled
+//1. Zrobić funkcje na pobieranie danych z inputów ++
+//2. DAne trafiają do arr ++
+//3. Obj tworzony na podstawie arr ++
+//Id - random
+//resource Id -random
+//state, activity, tags i hex na podstawie danych usera
+//Jeśli któryś formularz jest pusty to button disabled
+
 
 potem zapisz dane pythonem do jsona
-
-
+1. Capitalize Letter
+2. Change to select option
+1.Python do jsona
+2.Potem apka Pythonowa -> import w to miejsce do js
 
