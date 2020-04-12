@@ -13,7 +13,7 @@ $(document).ready(function (){
     // }
     save.click(function(){
         $.ajax({
-             url: "python/save.py",
+             url: "C:\Users\Piotrek\Documents\GitHub\Kanban\python\save.py",
             success: function(response) {
                 // here you do whatever you want with the response variable
                 console.log("działa!")
