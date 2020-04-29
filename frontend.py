@@ -30,13 +30,13 @@ l4=Label(root, text="Task")
 l4.place(relwidth=widthLabels, relheight=heightLabels, relx=0, rely=0.56)
 
 l5=Label(root, text="Status")
-l5.place(relwidth=widthLabels, relheight=heightLabels, relx=0.2, rely=0.55)
+l5.place(relwidth=widthLabels, relheight=heightLabels, relx=0.2, rely=0.56)
 
 l6=Label(root, text="Severity")
-l6.place(relwidth=widthLabels, relheight=heightLabels, relx=0.4, rely=0.55)
+l6.place(relwidth=widthLabels, relheight=heightLabels, relx=0.4, rely=0.56)
 
 l7=Label(root, text="Tags")
-l7.place(relwidth=widthLabels, relheight=heightLabels, relx=0.6, rely=0.55)
+l7.place(relwidth=widthLabels, relheight=heightLabels, relx=0.6, rely=0.56)
 
 
 #LISTS
@@ -53,15 +53,25 @@ list3.place(relwidth=widthList, relheight=heightlist, relx=0.68, rely=0.02)
 e4=Entry(root)
 e4.place(relwidth=0.2, relheight=0.04, relx=0, rely=0.58)
 
+e5=Entry(root)
+e5.place(relwidth=0.2, relheight=0.04, relx=0.2, rely=0.58)
+
+e6=Entry(root)
+e6.place(relwidth=0.2, relheight=0.04, relx=0.4, rely=0.58)
+
+e7=Entry(root)
+e7.place(relwidth=0.2, relheight=0.04, relx=0.6, rely=0.58)
+
+
 #Buttons
 b1=Button(root,text="Add entry")
-b1.place(relwidth=widthLabels, relheight=heightButtons, relx=0.9, rely=0.55)
+b1.place(relwidth=widthLabels, relheight=heightButtons, relx=0.85, rely=0.55)
 
 b2=Button(root,text="Update entry")
-b2.place(relwidth=widthLabels, relheight=heightButtons, relx=0.9, rely=0.6)
+b2.place(relwidth=widthLabels, relheight=heightButtons, relx=0.85, rely=0.6)
 
 b3=Button(root,text="Delete entry")
-b3.place(relwidth=widthLabels, relheight=heightButtons, relx=0.9, rely=0.65)
+b3.place(relwidth=widthLabels, relheight=heightButtons, relx=0.85, rely=0.65)
 
 
 # b2=Button(window,text="Delete entry", width=14, command=delete_command)
